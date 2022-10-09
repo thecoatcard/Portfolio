@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar {
+    background-color: rgb(160, 160, 160);
+    text-decoration: none;
+    width: 200px;
+    height: 100vh;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+.sidebar nav {
+    padding: 10px;
+}
+
+.sidebar nav li {
+    font-weight: bold;
+    list-style: none;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.sidebar nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(144, 243, 51); */
+    /* height: 58vh; */
+    width: 80vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hello {
+    font-size: 60px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    margin-top: 22px;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 18px;
+    
+}
+
+.moreabout a {
+    color: rgb(128, 125, 125);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.moreabout a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 10px;
+
+}
+
+.button button {
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+}
+.button button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.devpic img {
+    height: 58vh;
+}
+.form-group{
+    font-size: 22px;
+
+}
+.contactform{
+    font-family: 'Signika Negative', sans-serif;
+    padding: 0 34px;
+    padding-top: 70px;
+}
+.contactform h1{
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+}
+.contactform div{
+    padding: 10px;
+}
+#emailHelp{
+    color: gray;
+    margin: 0 5px;
+}
+#emailHelp:hover{
+    color: rgb(209, 135, 135);
+    
+}
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 3px;
+}
+#isclient{
+    flex-direction: row;
+}
+#isclient input{
+    width: 24px;
+    margin: 3px 0;
+}
